@@ -63,8 +63,6 @@
 !*.Rmd
 !*.Rproj
 
-# Permit these specific files.
-
 ## Make
 !Makefile
 
@@ -127,7 +125,7 @@
 
 # Presumed sensitive-data directories: must be ignored, but only at the repo root level
 # (i.e. src/data, src/models is not ignored by this pattern)
-/data/
+#/data/
 /models/
 /references/
 /reports/
@@ -189,3 +187,7 @@ venv/
 wheels/
 _build/
 __pycache__/
+
+# Permit these specific files.
+!Lead Scoring.csv
+!Leads Data Dictionary.xlsx
