@@ -107,13 +107,10 @@
 # - By adding a whitelist file, you are certifying that the file
 #   contains no secrets or personally identifiable information, and you will
 #   be held responsible for any breaches that result.
-# - Do not whitelist with wildcards except with manager permission.
-# - Do not whitelist Jupyter notebooks (.ipynb) or similar embedded-data files.
 !.slackSettings
 !LICENSE
-!mm-cert-bundle.pem.unix
 !vsql
-
+!data_exploration.ipynb
 
 # Ignore these files, even if previous patterns would otherwise permit them.
 *[Cc][Rr][Ee][Dd][Ee][Nn][Tt][Ii][Aa][Ll]*
