@@ -111,6 +111,8 @@
 !LICENSE
 !vsql
 !data_exploration.ipynb
+!random_forest.ipynb
+!xgboost.ipynb
 
 # Ignore these files, even if previous patterns would otherwise permit them.
 *[Cc][Rr][Ee][Dd][Ee][Nn][Tt][Ii][Aa][Ll]*
